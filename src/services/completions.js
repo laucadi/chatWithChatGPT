@@ -9,7 +9,7 @@ export const fetchCompletions = async (message) => {
     },
   };
 
-  const response = await fetch("http://localhost:8000/completions", options);
+  const response = await fetch("/completions", options);
   const data = await response.json();
   if (!response.ok) {
     throw new Error(`HTTP error! Status: ${response.status}`);

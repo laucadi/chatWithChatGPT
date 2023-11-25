@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import ChatInput from "./components/ChatInput";
-import MainChat from "./components/mainChat";
+import MainChat from "./components/MainChat";
 import Header from "./components/Header";
 import { fetchCompletions } from "./services/completions";
 
